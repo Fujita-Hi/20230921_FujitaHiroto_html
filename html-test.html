@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>株式会社TECH</title>
+</head>
+
+<body>
+    <header>
+        <div class="header__top">
+            <h1>株式会社TECH</h1>
+        </div>
+        <div class="header__bottom">
+            <ul class="header__item">
+                <li><a href="#" class="header__home">ホーム</a></li>
+                <li><a href="#" class="header__information">企業情報</a></li>
+                <li><a href="#" class="header__cominfo">会社概要</a></li>
+                <li><a href="#" class="header__faq">よくある質問</a></li>
+                <li><a href="#" class="header__form">お問い合わせ</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="firstview">
+        <img class="firstview__img" src="mv.png/mv.png" alt="株式会社TECH"><br />
+        <div class="firstview__text">
+            <p class="firstview__maintext">
+                最新のテクノロジーで
+                <em class="firstview__emtext">
+                    社会課題
+                </em>
+                を解決
+            </p>
+        </div>
+
+    </div>
+
+    <div class="main">
+        <div class="div.cominfo">
+            <h2 class="main__title">会社概要</h2>
+            <table class="cominfo__item">
+                <tr class="cominfo__name">
+                    <th class="cominfo__name">会社名</th>
+                    <td class="cominfo__name">株式会社TECH</td>
+                </tr>
+                <tr class="cominfo__rep">
+                    <th class="cominfo__rep">代表者</th>
+                    <td class="cominfo__rep">山田 太郎</td>
+                </tr>
+                <tr class="cominfo__datecom">
+                    <th class="cominfo__datecom">設立</th>
+                    <td class="cominfo__datecom">2019/07/17</td>
+                </tr>
+                <tr class="cominfo__empnum">
+                    <th class="cominfo__empnum">従業員数</th>
+                    <td class="cominfo__empnum">100人</td>
+                </tr>
+                <tr class="cominfo__fund">
+                    <th class="cominfo__fund">資本金</th>
+                    <td class="cominfo__fund">1000万円</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer__top">
+            <h2 class="form__title">お問い合わせ</h2>
+            <form class="form__item" action="detail.html" method="post">
+                <div class="form__comname">
+                    <label class="form__comname" for="comname">会社名</label>
+                    <input class="form__comname" type="text" name="comname" /><br />
+                </div>
+                <div class="form__name">
+                    <label class="form__name" for="name">お名前</label>
+                    <input class="form__name" type="text" name="name" /><br />
+                </div>
+                <div>
+                    <label class="form__mail" for="mail">メールアドレス</label>
+                    <input class="form__mail" type="email" name="mail" id="mail">
+                </div>
+                <div class="form__formtext">
+                    <label class="form__formtext" for="form">お問い合わせ内容</label>
+                    <textarea class="form__formtext" name="form" cols="50" rows="7"></textarea>
+                </div>
+                <input class="form__btn" type="submit" value="お申し込み">
+            </form>
+        </div>
+        <div class="footer__bottom">
+            <small class="footer__copyright">@ 2020 TECH inc.</small>
+        </div>
+    </footer>
+</body>
+
+</html>
